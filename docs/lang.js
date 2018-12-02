@@ -1,4 +1,4 @@
-var langs = ['en', 'fr', 'es', 'jp', 'rs'];
+var langs = ['en','fr','es','jp','rs'];
 var langCode = 'en';			//Write the default Value from langs into it
 var langJS = null;
 
@@ -21,4 +21,3 @@ var translate = function (jsdata)
 if(langCode == 'en'){
 	$.getJSON('lang/en.json', translate);		
 }
-
