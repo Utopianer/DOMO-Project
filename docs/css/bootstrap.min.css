@@ -450,7 +450,7 @@ pre code { padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap
 }
 
 .container-fluid { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto }
-.row { margin-right: -15px; margin-left: -15px }
+.row { margin-right: -15px; margin-left: -15px; }
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px }
 .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 { float: left }
 .col-xs-12 { width: 100% }
@@ -1173,11 +1173,11 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .navbar-default .btn-link:focus, .navbar-default .btn-link:hover { color: #333 }
 .navbar-default .btn-link[disabled]:focus, .navbar-default .btn-link[disabled]:hover, fieldset[disabled] .navbar-default .btn-link:focus, fieldset[disabled] .navbar-default .btn-link:hover { color: #ccc }
 .navbar-inverse {
-background: #da511d; 
-background: -moz-linear-gradient(top,  #da511d 0%, #cd440d 100%); 
+background: #da511d;
+background: -moz-linear-gradient(top,  #da511d 0%, #cd440d 100%);
 background: -webkit-linear-gradient(top,  #da511d 0%,#cd440d 100%);
-background: linear-gradient(to bottom,  #da511d 0%,#cd440d 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da511d', endColorstr='#cd440d',GradientType=0 ); 
+background: linear-gradient(to bottom,  #da511d 0%,#cd440d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da511d', endColorstr='#cd440d',GradientType=0 );
  }
 .navbar-inverse .navbar-brand { color: #9d9d9d }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover { color: #fff; background-color: transparent }
@@ -1663,7 +1663,7 @@ td.visible-print, th.visible-print { display: table-cell!important }
 
 .navbar-right>li>a{padding: 8px 15px; border-radius: 4px;text-shadow:none;  }
 .navbar-right>li>a.btn-default{color: #fff; background:#4b4b4b}
-.navbar-right>li>a.btn-warning{ color:#000} 
+.navbar-right>li>a.btn-warning{ color:#000}
 
 
 @media (min-width:993px) and (max-width:1300px) {
@@ -1673,7 +1673,7 @@ td.visible-print, th.visible-print { display: table-cell!important }
 
 @media (min-width:768px) and (max-width:992px) {
 .nav>li>a{padding:5px 12px; font-size:14px;}
-	
+
 }
 
 
