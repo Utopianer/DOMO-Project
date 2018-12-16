@@ -115,10 +115,14 @@ img{max-width:100%;}
 border-radius: 50%;}
 }
 
+.twitter-timeline{
+float: left;
+width: 100%;
+}
 
 /* Footer start */
-#footer{background:#e4ecff}
-#footer2{background:url(../images/joinus.jpg) no-repeat center bottom #000;font-size:12px; font-weight:200; padding:3em 0; color:#fff; background-attachment:fixed }
+#joinus{background:#e4ecff}
+#joinus2{background:url(../images/joinus.jpg) no-repeat center bottom #000;font-size:12px; font-weight:200; padding:3em 0; color:#fff; background-attachment:fixed }
 
 
 #copyright{padding:20px 0; color:#6d6c6c; font-size:12px; background:#222222;text-align:center}
