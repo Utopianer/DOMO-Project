@@ -1,4 +1,4 @@
-var langs = ['en','fr','es','jp','rs'];
+var langs = ['en','fr','es','jp','rus','rs'];
 var langCode = 'en';			//Write the default Value from langs into it
 var langJS = null;
 
