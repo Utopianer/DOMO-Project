@@ -1,6 +1,5 @@
-#Note
-Already know the drill and just want the fast setup Script?
-Here it is: https://github.com/Utopianer/Domo-Masternode-Setup
+This Tutorial is using a setup script to make Masternode Setup as easy as possible. Please make sure you are root (not different user) or else you need to change the domo.conf path in the setup script manually to make it work properly.
+(https://github.com/Utopianer/Domo-Masternode-Setup)
 
 # Domocoin Masternode setup guide
 
