@@ -100,7 +100,7 @@ The file will look like this:
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+# Example: mn1 127.0.0.2:52992 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 MN01 69.69.69.0:52992 119cCx5Y3ed19YkTzun4EptdexAo3RvQXaPdkP 838354ce57cc8b168d932d138001781b77b2353460c05cf2235a3284093cb0019db 0
 ```
 * 4.8 Restart the wallet<br>
