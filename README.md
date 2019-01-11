@@ -6,4 +6,6 @@ For the actual SourceCode of Domocoin please visit: https://github.com/Utopianer
 
 You can still download the Wallets in the Releases Section: https://github.com/Utopianer/DOMO-Project/releases
 
-For more Informations please ask Domo or visit the official DOMO Forum: http://domotalk.com
+For more Informations please ask Domo or visit the official DOMO Homepage: https://domoproject.me
+
+Most communications are happening via Discord: https://discordapp.com/invite/VuTYQhK
