@@ -69,6 +69,176 @@ img{max-width:100%;}
     box-shadow: 0 0 24px #e2e2e2;
     color: #002496;
     text-transform: uppercase;}
+
+.boxdiscord{
+  font-size: 26px;
+  text-align: center;
+  display: block;
+  padding: 1.5em 15px;
+  background:url(../images/discord.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px; text-decoration:none;
+  box-shadow: 0 0 24px #e2e2e2;
+  color: #002496;
+  text-transform: uppercase;}
+
+  .boxtwitter{
+     font-size: 26px;
+     text-align: center;
+     display: block;
+     padding: 1.5em 15px;
+     background:url(../images/twitter.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     margin-bottom: 30px; text-decoration:none;
+     box-shadow: 0 0 24px #e2e2e2;
+     color: #002496;
+     text-transform: uppercase;}
+
+    .boxtelegram{
+      font-size: 26px;
+      text-align: center;
+      display: block;
+      padding: 1.5em 15px;
+      background:url(../images/telegram.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: 30px; text-decoration:none;
+      box-shadow: 0 0 24px #e2e2e2;
+      color: #002496;
+      text-transform: uppercase;}
+
+     .boxbitcointalk{
+        font-size: 26px;
+        text-align: center;
+        display: block;
+        padding: 1.5em 15px;
+        background:url(../images/bitcointalk.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 30px; text-decoration:none;
+        box-shadow: 0 0 24px #e2e2e2;
+        color: #002496;
+        text-transform: uppercase;}
+
+        .boxcratex{
+          font-size: 26px;
+          text-align: center;
+          display: block;
+          padding: 1.5em 15px;
+          background:url(../images/cratex.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          margin-bottom: 30px; text-decoration:none;
+          box-shadow: 0 0 24px #e2e2e2;
+          color: #002496;
+          text-transform: uppercase;}
+
+          .boxaltmarkets{
+            font-size: 26px;
+            text-align: center;
+            display: block;
+            padding: 1.5em 15px;
+            background:url(../images/altmarkets.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 30px; text-decoration:none;
+            box-shadow: 0 0 24px #e2e2e2;
+            color: #002496;
+            text-transform: uppercase;}
+
+            .boxbitex{
+              font-size: 26px;
+              text-align: center;
+              display: block;
+              padding: 1.5em 15px;
+              background:url(../images/bitexlive.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              margin-bottom: 30px; text-decoration:none;
+              box-shadow: 0 0 24px #e2e2e2;
+              color: #002496;
+              text-transform: uppercase;}
+
+              .boxihostmn{
+                font-size: 26px;
+                text-align: center;
+                display: block;
+                padding: 1.5em 15px;
+                background:url(../images/ihostmn.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin-bottom: 30px; text-decoration:none;
+                box-shadow: 0 0 24px #e2e2e2;
+                color: #002496;
+                text-transform: uppercase;}
+
+                .boxmnworld{
+                  font-size: 26px;
+                  text-align: center;
+                  display: block;
+                  padding: 1.5em 15px;
+                  background:url(../images/mnworld.png);
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  margin-bottom: 30px; text-decoration:none;
+                  box-shadow: 0 0 24px #e2e2e2;
+                  color: #002496;
+                  text-transform: uppercase;}
+
+                  .boxcoinpaprika{
+                    font-size: 26px;
+                    text-align: center;
+                    display: block;
+                    padding: 1.5em 15px;
+                    background:url(../images/coinpaprika.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    margin-bottom: 30px; text-decoration:none;
+                    box-shadow: 0 0 24px #e2e2e2;
+                    color: #002496;
+                    text-transform: uppercase;}
+
+                    .boxdelta{
+                      font-size: 26px;
+                      text-align: center;
+                      display: block;
+                      padding: 1.5em 15px;
+                      background:url(../images/delta.png);
+                      background-repeat: no-repeat;
+                      background-position: center;
+                      background-size: cover;
+                      margin-bottom: 30px; text-decoration:none;
+                      box-shadow: 0 0 24px #e2e2e2;
+                      color: #002496;
+                      text-transform: uppercase;}
+
+                      .boxfolio{
+                        font-size: 26px;
+                        text-align: center;
+                        display: block;
+                        padding: 1.5em 15px;
+                        background:url(../images/blockfolio.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        margin-bottom: 30px; text-decoration:none;
+                        box-shadow: 0 0 24px #e2e2e2;
+                        color: #002496;
+                        text-transform: uppercase;}
+
+
 .download-list .box i.fa{    display: block;
     margin-bottom: 9px;
     font-size: 40px;
@@ -119,6 +289,8 @@ border-radius: 50%;}
 float: left;
 width: 100%;
 }
+
+
 
 /* Footer start */
 #joinus{background:#e4ecff}
