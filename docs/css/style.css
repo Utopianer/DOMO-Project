@@ -238,6 +238,20 @@ img{max-width:100%;}
                         color: #002496;
                         text-transform: uppercase;}
 
+                        .boxcoinlore{
+                          font-size: 26px;
+                          text-align: center;
+                          display: block;
+                          padding: 1.5em 15px;
+                          background:url(../images/coinlore.png);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: cover;
+                          margin-bottom: 30px; text-decoration:none;
+                          box-shadow: 0 0 24px #e2e2e2;
+                          color: #002496;
+                          text-transform: uppercase;}
+
 
 .download-list .box i.fa{    display: block;
     margin-bottom: 9px;
