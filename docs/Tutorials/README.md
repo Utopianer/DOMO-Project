@@ -11,8 +11,13 @@ Depending on if you want to host your own Server and compile the Sourcecode or j
 Don´t want to setup and run Masternode yourself and also don´t want to pay for hosting in $$$ ?
 Shared hosting might be for you!
 
-Pro: No Setup, No monthly hosting fee
-Contra: No control of your coins (trust the provider), Paid in reward shares from masternodes
+Pro:
+* No Setup
+* No monthly hosting fee
+
+Contra: 
+* No control of your coins (trust the provider)
+* Paid in reward shares from masternodes
 
 * [Masternode World](https://masternode-world.com/coininfo?coin=domocoin) - Shared Masternode hosting #1
 * [Monitor](https://discord.gg/tk8hGxx) - Shared Masternode and Staking on discord
@@ -22,8 +27,12 @@ Contra: No control of your coins (trust the provider), Paid in reward shares fro
 
 Pay a monthly fee and manage your Masternode by a external Service
 
-Pro: No Setup, full control of your coins
-Contra: Monthly fee paid upfront in ₿
+Pro: 
+* No Setup
+* Full control of your coins
+
+Contra:
+* Monthly fee paid upfront in ₿ or €
 
 * [IHostMN](https://masternode-world.com/coininfo?coin=domocoin) - Host your Masternode for just 0,99€/month
 
