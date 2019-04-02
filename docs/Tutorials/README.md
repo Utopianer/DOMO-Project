@@ -19,6 +19,8 @@ Contra:
 * No control of your coins (trust the provider)
 * Paid in reward shares from masternodes
 
+### Links:
+
 * [Masternode World](https://masternode-world.com/coininfo?coin=domocoin) - Shared Masternode hosting #1
 * [Monitor](https://discord.gg/tk8hGxx) - Shared Masternode and Staking on discord
 * [MNPilot](https://discord.gg/9YGHPeV) - Shared Masternode on discord (russian + english community)
@@ -33,6 +35,8 @@ Pro:
 
 Contra:
 * Monthly fee paid upfront in ₿ or €
+
+### Links:
 
 * [IHostMN](https://masternode-world.com/coininfo?coin=domocoin) - Host your Masternode for just 0,99€/month
 
