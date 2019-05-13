@@ -3,7 +3,7 @@
                 'defaultLanguage' : 'en_GB', /* (optional) although must be defined if you don't want en_GB */
                 'showFlag': true,            /* (optional) show/hide the flag */
                 'showCountry': false,         /* (optional) show/hide the country name */
-                'showLanguage': false,        /* (optional) show/hide the country language */
+                'showLanguage': true,        /* (optional) show/hide the country language */
                 'languages' : {              /* (optional) define **ADDITIONAL** custom languages */
                     'italian' : {
                         'country': 'Italy',
@@ -33,12 +33,12 @@
                         }
                     }
                 },
-                /* 
+                /*
                  * Translate your strings below
                  */
                 'strings' : {
-                    /* 
-                     * You can specify the text string to translate directly... 
+                    /*
+                     * You can specify the text string to translate directly...
                      */
                     'Home' : {
                         'italian' : 'Casa',
@@ -350,6 +350,6 @@
                         'german': 'Faqs',
                         'barletta-dialect' : 'Accumminz a yuse` jquery.localizationTool.js',
                     }
-                    
+
                 }
             });
