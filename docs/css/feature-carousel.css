@@ -4,6 +4,7 @@
 .carousel-container {
   position:relative;
   width:960px;
+  height: 400px;
 }
 #carousel {
   height:280px;
