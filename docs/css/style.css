@@ -239,7 +239,7 @@ section {
 .position-center-center {
 	left: 50%;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -952,7 +952,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 }
 .simple-head {
 	background-size: cover;
-	max-height: 800px;
+	/*max-height: 800px;*/
 }
 .simple-head .position-center-center {
 	margin-top: 30px;
@@ -1977,3 +1977,71 @@ a:hover {
      filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 }*/
 
+
+/*dashboard letters animation*/
+.cd-headline {
+  	font-size: 3rem;
+  	line-height: 1.2; 
+}
+
+@media only screen and (min-width: 768px) {
+  	.cd-headline {
+	    font-size: 4.4rem;
+	    font-weight: 300; 
+    } 
+}
+
+@media only screen and (min-width: 1170px) {
+  	.cd-headline {
+    	font-size: 4.5rem; 
+	} 
+}
+
+.cd-headline.clip b {
+  	opacity: 0; 
+}
+
+.cd-words-wrapper {
+  	display: inline-block;
+  	position: relative;
+  	text-align: left; 
+}
+
+.cd-words-wrapper b {
+  	display: inline-block;
+  	position: absolute;
+  	white-space: nowrap;
+  	left: 0;
+  	top: 0;
+}
+
+/* xclip */
+.cd-headline.clip span {
+  	display: inline-block;
+  	padding: .2em 0; 
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  	overflow: hidden;
+  	vertical-align: top; 
+}
+
+.cd-headline.clip .cd-words-wrapper::after {
+  	/* line */
+  	content: '';
+  	position: absolute;
+  	top: 10%;
+  	right: 0;
+  	width: 2px;
+  	height: 70%;
+  	background-color: #aebcb9; 
+}
+
+.cd-words-wrapper b.is-visible {
+	position: relative; 
+}
+
+.cd-headline b.is-visible {
+	opacity: 1;
+	font-weight: 900; 
+}

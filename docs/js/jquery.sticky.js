@@ -90,22 +90,22 @@ $('.scroll a').click(function() {
 });
 // User define function
 function Scroll() {
-var contentTop      =   [];
-var contentBottom   =   [];
-var winTop      =   $(window).scrollTop();
-var rangeTop    =   5;
-var rangeBottom =   1000;
-$('nav').find('.scroll a').each(function(){
-	contentTop.push( $( $(this).attr('href') ).offset().top);
-		contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
-})
-$.each( contentTop, function(i){
-if ( winTop > contentTop[i] - rangeTop ){
-	$('nav li.scroll')
-	  .removeClass('active')
-		.eq(i).addClass('active');			
-}}  
-)};
+	var contentTop      =   [];
+	var contentBottom   =   [];
+	var winTop      =   $(window).scrollTop();
+	var rangeTop    =   5;
+	var rangeBottom =   1000;
+	// $('nav').find('.scroll a').each(function(){
+	// 	contentTop.push( $( $(this).attr('href') ).offset().top);
+	// 	contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+	// })
+	// $.each( contentTop, function(i){
+	// 	if ( winTop > contentTop[i] - rangeTop ){
+	// 		$('nav li.scroll').removeClass('active').eq(i).addClass('active');			
+	// 	}
+	// }  
+// )
+};
 
 
 //Togle Menu on click in Header
@@ -133,12 +133,12 @@ function checkmail(input){
 		var msg = document.getElementById("message");
 		var errors = "";
 		if(name.value == ""){ 
-		name.className = 'error';
-	  	  return false;}    
-		  else if(email.value == ""){
-		  email.className = 'error';
-		  return false;}
-		    else if(checkmail(email.value)==false){
+			name.className = 'error';
+	  	  	return false;
+	  	} else if(email.value == ""){
+		  	email.className = 'error';
+		  	return false;
+		} else if(checkmail(email.value)==false){
 		        alert('Please provide a valid email address.');
 		        return false;}
 		    else if(company.value == ""){

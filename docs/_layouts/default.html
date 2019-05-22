@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <!-- loader -->
+    {% include loader.html %}
+
+    <div id="wrap">
+
+      <!-- header -->
+      {% include header.html %}
+
+      <!-- page contents -->
+      {{ content }}
+        
+      <!-- footer -->
+      {% include footer.html %}
+
+    </div>
+
+    <!-- GO TO TOP -->
+    <a href="#" class="cd-top"><i class="ion-chevron-up"></i></a>
+
+    <!-- import script -->
+    {% include import-script.html %}
+
+  </body>
+
+</html>
