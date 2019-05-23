@@ -84,28 +84,37 @@ $back_to_top.on('click', function(event){
 $(window).scroll(function(event) {
 		Scroll();
 });	
-$('.scroll a').click(function() {  
-	$('html, body').animate({scrollTop: $(this.hash).offset().top -0}, 800);
-		return false;
+$('.scroll a').on('click', function(event) {
+	if(this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 900, function() {
+            window.location.hash = hash;
+        });
+    }
 });
+
 // User define function
 function Scroll() {
-var contentTop      =   [];
-var contentBottom   =   [];
-var winTop      =   $(window).scrollTop();
-var rangeTop    =   5;
-var rangeBottom =   1000;
-$('nav').find('.scroll a').each(function(){
-	contentTop.push( $( $(this).attr('href') ).offset().top);
+	var contentTop      =   [];
+	var contentBottom   =   [];
+	var winTop      =   $(window).scrollTop();
+	var rangeTop    =   5;
+	var rangeBottom =   1000;
+	$('nav').find('.scroll a').each(function(){
+		contentTop.push( $( $(this).attr('href') ).offset().top);
 		contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
-})
-$.each( contentTop, function(i){
-if ( winTop > contentTop[i] - rangeTop ){
-	$('nav li.scroll')
-	  .removeClass('active')
-		.eq(i).addClass('active');			
-}}  
-)};
+	})
+	$.each( contentTop, function(i){
+		if ( winTop > contentTop[i] - rangeTop ){
+			$('nav li.scroll').removeClass('active').eq(i).addClass('active');			
+		}
+	}  
+)
+};
 
 
 //Togle Menu on click in Header
@@ -133,12 +142,12 @@ function checkmail(input){
 		var msg = document.getElementById("message");
 		var errors = "";
 		if(name.value == ""){ 
-		name.className = 'error';
-	  	  return false;}    
-		  else if(email.value == ""){
-		  email.className = 'error';
-		  return false;}
-		    else if(checkmail(email.value)==false){
+			name.className = 'error';
+	  	  	return false;
+	  	} else if(email.value == ""){
+		  	email.className = 'error';
+		  	return false;
+		} else if(checkmail(email.value)==false){
 		        alert('Please provide a valid email address.');
 		        return false;}
 		    else if(company.value == ""){

@@ -12,8 +12,14 @@
       <!-- header -->
       {% include header.html %}
 
-      <!-- page contents -->
-      {{ content }}
+      <div id="content">
+        {% include about.html %}
+        {% include distribute.html %}
+        {% include links.html %}
+        {% include partners.html %}
+        {% include news.html %}
+        {% include history.html %}
+      </div>
         
       <!-- footer -->
       {% include footer.html %}

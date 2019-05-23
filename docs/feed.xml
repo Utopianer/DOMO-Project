@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Domo Project</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
+    <title>The DOMO Project</title>
+    <description>Building a decentralized Community. Domocoin is a cryptocurrency used as a ticket to join the social network of the future (Proof of Ownership)</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 May 2019 01:59:05 +0800</pubDate>
-    <lastBuildDate>Tue, 21 May 2019 01:59:05 +0800</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Wed, 22 May 2019 23:36:56 +0800</pubDate>
+    <lastBuildDate>Wed, 22 May 2019 23:36:56 +0800</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,8 +27,8 @@
 
 </description>
         <pubDate>Sun, 01 Jul 2018 08:22:26 +0800</pubDate>
-        <link>http://localhost:4000/jekyll/update/2018/07/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2018/07/01/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2018/07/01/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2018/07/01/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
