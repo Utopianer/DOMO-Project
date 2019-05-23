@@ -9,4 +9,5 @@ You can still download the Wallets in the Releases Section: https://github.com/U
 For more Informations please ask Domo or visit the official DOMO Homepage: https://domoproject.me
 
 Most communications are happening via Discord: https://discord.gg/u2VEeD
+
 and also on Telegram: https://t.me/DOMOproject
