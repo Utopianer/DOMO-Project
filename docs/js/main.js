@@ -210,4 +210,12 @@ $(document).ready(function($) {
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
 
+	$( ".history-pane" ).hover(
+	  	function() {
+	  		$(this).parent().find('img').css("opacity", 0.1);
+	  	}, function() {
+	  		$(this).parent().find('img').css("opacity", 1);
+	  	}
+	);
+
 });

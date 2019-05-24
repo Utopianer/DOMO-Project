@@ -976,7 +976,7 @@ header .navbar li a:before{
 	#history {
 		background-image: url(../image/historybg.png);
 		background-position: center;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-color: #080a30;
 	}
