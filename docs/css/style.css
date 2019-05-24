@@ -2122,6 +2122,10 @@ a:hover {
 	display: none;
 }
 
+.w-xs-none {
+	display: block;
+}
+
 .bt-s-1 {
 	border-top: 1px solid #333;
 }
@@ -2135,6 +2139,14 @@ a:hover {
     top: 25%;
     right: -260px;
     width: 33%;
+}
+
+.w-line {
+	position:absolute;
+	width: 75%;
+	border-top: 2px solid #4444;
+	top: 49%;
+	left: 14%;
 }
 
 @media(max-width:1599px) {
@@ -2225,6 +2237,9 @@ a:hover {
 	}
 	.dev-activ a>p>span {
 		font-size: 16px;
+	}
+	.w-xs-none {
+		display: none;
 	}
 }
 

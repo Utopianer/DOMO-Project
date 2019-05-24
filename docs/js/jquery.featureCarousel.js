@@ -177,14 +177,41 @@
       pluginData.featuresContainer
         // Have to make the container relative positioning
         .find(".carousel-feature").each(function () {
-          // Center all the features in the middle and hide them
-          $(this).css({
-            'left': (pluginData.containerWidth / 2) - (pluginData.smallFeatureWidth / 2) - (pluginData.borderWidth / 2),
-            'width': pluginData.smallFeatureWidth,
-            'height': pluginData.smallFeatureHeight,
-            'top': options.smallFeatureOffset + options.topPadding,
-            'opacity': 0
-          });
+          innerW = window.innerWidth;
+          if (innerW <= 767) {
+            $(this).css({
+              'left': (pluginData.containerWidth / 2) - (pluginData.smallFeatureWidth / 2) - (pluginData.borderWidth / 2),
+              'width': pluginData.smallFeatureWidth / 6,
+              'height': pluginData.smallFeatureHeight,
+              'top': options.smallFeatureOffset + options.topPadding,
+              'opacity': 0
+            });
+          } else if (innerW >= 768 && innerW <= 991) {
+            $(this).css({
+              'left': (pluginData.containerWidth / 2) - (pluginData.smallFeatureWidth / 2) - (pluginData.borderWidth / 2),
+              'width': pluginData.smallFeatureWidth / 4,
+              'height': pluginData.smallFeatureHeight,
+              'top': options.smallFeatureOffset + options.topPadding,
+              'opacity': 0
+            });
+          } else if (innerW >= 992 && innerW <= 1199) {
+            $(this).css({
+              'left': (pluginData.containerWidth / 2) - (pluginData.smallFeatureWidth / 2) - (pluginData.borderWidth / 2),
+              'width': pluginData.smallFeatureWidth / 2,
+              'height': pluginData.smallFeatureHeight,
+              'top': options.smallFeatureOffset + options.topPadding,
+              'opacity': 0
+            });
+          } else {
+            // Center all the features in the middle and hide them
+            $(this).css({
+              'left': (pluginData.containerWidth / 2) - (pluginData.smallFeatureWidth / 2) - (pluginData.borderWidth / 2),
+              'width': pluginData.smallFeatureWidth,
+              'height': pluginData.smallFeatureHeight,
+              'top': options.smallFeatureOffset + options.topPadding,
+              'opacity': 0
+            });
+          }
         })
         // Set all the images to small feature size
         .find(".carousel-image").css({
