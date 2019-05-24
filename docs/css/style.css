@@ -1520,11 +1520,9 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 	opacity: 1;
 }
 .parthner-links li {
-	width: 12%;
+	width: 25%;
 	float: left;
 	margin-bottom: 20px;
-	/*padding: 0 10px;*/
-	padding-right: 30px;
 }
 .parthner-links li img {
 	max-width: 100%;
@@ -2103,6 +2101,42 @@ a:hover {
     width: 80px;
 }
 
+.social-hover:hover {
+	-webkit-transform: skewY(20deg);
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transform: skewY(20deg);
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transform: skewY(20deg);
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transform: skewY(20deg);
+	-o-transition: all 0.8s ease-in-out;
+	transform: skewY(20deg);
+	transition: all 0.8s ease-in-out;
+}
+
+.mt-75 {
+	margin-top:75px;
+}
+
+.w-display {
+	display: none;
+}
+
+.bt-s-1 {
+	border-top: 1px solid #333;
+}
+
+.br-s-1 {
+	border-right: 1px solid #333
+}
+
+.hexagon {
+	position: absolute;
+    top: 25%;
+    right: -260px;
+    width: 33%;
+}
+
 @media(max-width:1599px) {
 	.community-img {
 		top: -250px;
@@ -2113,6 +2147,28 @@ a:hover {
 	.community-img {
 		top: -200px;
 		width: 40%;
+	}
+	.domo-history {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.mt-75 {
+		margin-top:45px;
+	}
+	.dev-activ a>p>span {
+		font-size: 18px;
+	}
+	.hexagon {
+		position: absolute;
+	    top: 45%;
+	    right: -130px;
+	    width: 29%;
+	}
+}
+
+@media(max-width:991) {
+	.mt-75 {
+		margin-top:0px;
 	}
 }
 
@@ -2133,6 +2189,31 @@ a:hover {
 		padding-top: 30px;
 	    padding-bottom: 100px;
 	}
+	.mt-75 {
+		margin-top:10px;
+	}
+	.w-none {
+		display: none !important;
+	}
+
+	.w-display {
+		display: block !important;
+	}
+	.bt-s-1 {
+		border-top: none;
+	}
+	.parthner-links .mt-5 {
+		margin-top: -40px !important;
+	}
+	.br-none {
+		border-right: none !important;
+	}
+	.hexagon {
+	    position: absolute;
+	    top: 75%;
+	    right: 12%;
+	    width: 29%;
+	}
 }
 
 @media(max-width:575px) {
@@ -2140,12 +2221,18 @@ a:hover {
 		display: block;
 	}
 	.footer-email {
-	    width: 65px;
+	    width: 50px;
+	}
+	.dev-activ a>p>span {
+		font-size: 16px;
 	}
 }
 
-@media(max-width:575px) {
-	.footer-email {
-	    width: 50px;
+@media(max-width:441px) {
+	.w-18 {
+	    margin-right: -18px;
+	}
+	.hexagon {
+	    top: 78%;
 	}
 }
