@@ -729,7 +729,6 @@ header{
 }
 .dev-activ ul li.col{
 	    flex-basis: 50%;
-		border-bottom:1px solid  rgba(0,0,0,0.07);
 }
 .community-sec .col{
 	    flex-basis: 100%;
@@ -767,8 +766,9 @@ header{
 	margin-bottom:20px;
 }
 .parthner-links li{
-	width:50%;
+	width:48%;
 	margin-bottom:20px;
+	margin-left: 2%;
 }
 .dev-activ ul li.col{
 	margin-bottom:20px;
