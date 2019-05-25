@@ -5,35 +5,61 @@
     <description>Building a decentralized Community. Domocoin is a cryptocurrency used as a ticket to join the social network of the future (Proof of Ownership)</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 May 2019 00:38:21 +0800</pubDate>
-    <lastBuildDate>Sat, 25 May 2019 00:38:21 +0800</lastBuildDate>
+    <pubDate>Sat, 25 May 2019 10:49:59 +0800</pubDate>
+    <lastBuildDate>Sat, 25 May 2019 10:49:59 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Finish DOMO Project. WOW!</title>
+        <description>&lt;p&gt;We always stick to the needs of our customers.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/Utopianer/DomoCore&quot;&gt;DOMO Source&lt;/a&gt; to view our DOMO Coin Source Code. You can download Wallets in &lt;a href=&quot;https://github.com/Utopianer/DOMO-Project/releases&quot;&gt;Wallets&lt;/a&gt;. Most communications are &lt;a href=&quot;https://discord.gg/u2VEeD&quot;&gt;Discord&lt;/a&gt; and &lt;a href=&quot;https://t.me/DOMOproject&quot;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 May 2019 08:22:26 +0800</pubDate>
+        <link>http://localhost:4000/domo/update/2019/05/05/domo-finish-project/</link>
+        <guid isPermaLink="true">http://localhost:4000/domo/update/2019/05/05/domo-finish-project/</guid>
+        
+        
+        <category>domo</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Domo First Commit Successfully!</title>
+        <description>&lt;p&gt;DOMO coin official homepage is updated!&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/Utopianer/DomoCore&quot;&gt;DOMO Source&lt;/a&gt; to view our DOMO Coin Source Code. You can download Wallets in &lt;a href=&quot;https://github.com/Utopianer/DOMO-Project/releases&quot;&gt;Wallets&lt;/a&gt;. Most communications are &lt;a href=&quot;https://discord.gg/u2VEeD&quot;&gt;Discord&lt;/a&gt; and &lt;a href=&quot;https://t.me/DOMOproject&quot;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Apr 2019 08:22:26 +0800</pubDate>
+        <link>http://localhost:4000/domo/update/2019/04/25/domo-first-commit/</link>
+        <guid isPermaLink="true">http://localhost:4000/domo/update/2019/04/25/domo-first-commit/</guid>
+        
+        
+        <category>domo</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to DOMO coin</title>
+        <description>&lt;p&gt;Notice first DOMO COIN released!&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/Utopianer/DomoCore&quot;&gt;DOMO Source&lt;/a&gt; to view our DOMO Coin Source Code. You can download Wallets in &lt;a href=&quot;https://github.com/Utopianer/DOMO-Project/releases&quot;&gt;Wallets&lt;/a&gt;. Most communications are &lt;a href=&quot;https://discord.gg/u2VEeD&quot;&gt;Discord&lt;/a&gt; and &lt;a href=&quot;https://t.me/DOMOproject&quot;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 01 Jul 2018 08:22:26 +0800</pubDate>
-        <link>http://localhost:4000/jekyll/update/2018/07/01/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2018/07/01/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/domo/release/2018/07/01/welcome-to-domo-coin/</link>
+        <guid isPermaLink="true">http://localhost:4000/domo/release/2018/07/01/welcome-to-domo-coin/</guid>
         
         
-        <category>jekyll</category>
+        <category>domo</category>
         
-        <category>update</category>
+        <category>release</category>
         
       </item>
     
