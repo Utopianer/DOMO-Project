@@ -2098,6 +2098,27 @@ a:hover {
 
 .glow {
     color: #f37435;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+  	-moz-animation: glow 2s ease-in-out infinite alternate;
+  	animation: glow 2s ease-in-out infinite alternate;
+}
+
+.glow2 {
+    color: #d11abe;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  	-moz-animation: glow 1s ease-in-out infinite alternate;
+  	animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow3 {
+    color: #3c11df;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  	-moz-animation: glow 1s ease-in-out infinite alternate;
+  	animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow4 {
+    color: #12b712;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
   	-moz-animation: glow 1s ease-in-out infinite alternate;
   	animation: glow 1s ease-in-out infinite alternate;
@@ -2295,6 +2316,10 @@ a:hover {
 .btn-secondary {
 	border-color: #fed136;
 	background-color: #fed136;
+}
+
+.carousel-feature a {
+	color: #5e5;
 }
 
 @media(max-width:1599px) {
