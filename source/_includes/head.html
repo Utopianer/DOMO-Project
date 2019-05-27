@@ -1,0 +1,39 @@
+<head>
+  	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="M_Adnan">
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+	<!-- Bootstrap Core CSS -->
+  	<link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+
+	<!-- Custom CSS -->
+  	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  	<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  	<link rel="stylesheet" href="{{ "/css/responsive.css" | prepend: site.baseurl }}">
+  	<link rel="stylesheet" href="{{ "/fonts/flaticon.css" | prepend: site.baseurl }}">
+  	<link rel="stylesheet" href="{{ "/css/ionicons.min.css" | prepend: site.baseurl }}">
+  	<link rel="stylesheet" href="{{ "/css/feature-carousel.css" | prepend: site.baseurl }}">
+  	<link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl }}">
+
+	<!-- language -->
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  	<link type="text/css" rel="stylesheet" href="{{ "/dist/jquery.localizationTool.css" | prepend: site.baseurl }}">
+
+  	<script src="{{ "/js/modernizr.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+
+	<!-- Online Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Montserrat:300,400,500,600,700,800" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+  	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>

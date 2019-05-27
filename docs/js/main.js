@@ -195,6 +195,9 @@ $(document).ready(function($) {
 	}
 
 	function takeNext($word) {
+		if($word.hasClass('first-hidden')) {
+			$word.removeClass('first-hidden');
+		}
 		return (!$word.is(':last-child')) ? $word.next() : $word.parent().children().eq(0);
 	}
 
@@ -203,6 +206,9 @@ $(document).ready(function($) {
 	}
 
 	function switchWord($oldWord, $newWord) {
+		if($newWord.hasClass('first-hidden')) {
+			$newWord.removeClass('first-hidden');
+		}
 		$oldWord.removeClass('is-visible').addClass('is-hidden');
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
