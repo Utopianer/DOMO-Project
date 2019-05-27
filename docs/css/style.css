@@ -2076,6 +2076,10 @@ a:hover {
 	font-weight: 900; 
 }
 
+.first-hidden {
+	display: none !important;
+}
+
 .typing-glow {
     color: #f37435;
 	text-shadow: #fff 0 -1px 4px, 
@@ -2547,6 +2551,12 @@ a:hover {
 		top: 16%;
 		font-size: 16px;
 		line-height: 14px;
+	}
+}
+
+@media(max-width:340px) {
+	.cd-words-wrapper b {
+	  	font-size: 26px;
 	}
 }
 
