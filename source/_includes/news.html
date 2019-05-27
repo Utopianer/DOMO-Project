@@ -1,6 +1,6 @@
 <section class="team style-2 padding-top-100 pb-5" id="news">
   <div class="community-img">
-    <img src="image/object5.png" class="d-none d-sm-block d-xs-block">
+    <img src="{{ site.baseurl }}/image/object5.png" class="d-none d-sm-block d-xs-block">
   </div>
   <div class="container">
     <div class="container-heading">
@@ -13,7 +13,7 @@
         {% for post in site.posts %}
           <div class="carousel-feature">
             <a href="#">
-              <img class="carousel-image" alt="Image Caption" src="image/twitterbg.png">
+              <img class="carousel-image" alt="Image Caption" src="{{ site.baseurl }}/image/twitterbg.png">
             </a>
             <div class="carousel-caption">
               <p style="font-weight:300;">
@@ -25,8 +25,8 @@
           </div>
         {% endfor %}
       </div>
-      <div id="carousel-left"><img src="image/arrow-left.png" /></div>
-      <div id="carousel-right"><img src="image/arrow-right.png" /></div>
+      <div id="carousel-left"><img src="{{ site.baseurl }}/image/arrow-left.png" /></div>
+      <div id="carousel-right"><img src="{{ site.baseurl }}/image/arrow-right.png" /></div>
     </div>
 
     <div class="d-sm-none d-md-none d-lg-none">
@@ -34,7 +34,7 @@
           <div class="mobile-blog">
             <div class="blog-img">
               <a href="#">
-                <img src="image/twitterbg-phone.png" alt="Image Caption"><br>
+                <img src="{{ site.baseurl }}/image/twitterbg-phone.png" alt="Image Caption"><br>
               </a>
             </div>
             <div class="blog-header">
