@@ -1831,6 +1831,10 @@ a:hover {
 	line-height: 15px;
 }
 
+.joinus {
+	background-color: #00062b;
+}
+
 #joinus .blue:hover {
 	color: #049eb6 !important;
 }
@@ -1863,7 +1867,7 @@ a:hover {
 
 #community {
 	background-image: url(../image/wavebg.png);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #080a30;
 }
@@ -2076,6 +2080,10 @@ a:hover {
 	font-weight: 900; 
 }
 
+.first-hidden {
+	display: none !important;
+}
+
 .typing-glow {
     color: #f37435;
 	text-shadow: #fff 0 -1px 4px, 
@@ -2209,6 +2217,13 @@ a:hover {
     top: 20%;
     left: 49%;
     width: 80px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  	transition: width 2s, height 2s, transform 2s;
+}
+
+.footer-email:hover {
+	-webkit-transform: rotate(180deg); /* Safari */
+  	transform: rotate(180deg);
 }
 
 .social-hover:hover {
@@ -2547,6 +2562,12 @@ a:hover {
 		top: 16%;
 		font-size: 16px;
 		line-height: 14px;
+	}
+}
+
+@media(max-width:340px) {
+	.cd-words-wrapper b {
+	  	font-size: 26px;
 	}
 }
 
