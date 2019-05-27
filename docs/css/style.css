@@ -2318,8 +2318,35 @@ a:hover {
 	background-color: #fed136;
 }
 
-.carousel-feature a {
+.carousel-feature a,
+.mobile-blog a {
 	color: #5e5;
+}
+
+.mobile-blog {
+	padding: 7px;
+    text-align: center;
+    border: 2px solid #eee6;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.mobile-blog img {
+	width: 50px;
+}
+
+.mobile-blog {
+	text-align: center;
+}
+
+.blog-content {
+	text-align: left;
+}
+
+.blog-content p {
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 0.7rem;
 }
 
 @media(max-width:1599px) {
@@ -2459,11 +2486,21 @@ a:hover {
 }
 
 @media(max-width:575px) {
+	#home h3 {
+		font-size: 18px;
+	}
+	#history {
+		padding-bottom: 0px !important;
+	}
+	.simple-head .position-center-center {
+	    top: 10% !important;
+	}
 	.partner-align {
 		display: block;
 	}
 	.footer-email {
 	    width: 50px;
+	    left: 44%;
 	}
 	.dev-activ a>p>span {
 		font-size: 16px;

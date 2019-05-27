@@ -84,7 +84,7 @@ $back_to_top.on('click', function(event){
 $(window).scroll(function(event) {
 		Scroll();
 });	
-$('.scroll a, .simple-head a').on('click', function(event) {
+$('.scroll a, .simple-head a, #about a').on('click', function(event) {
 	if(this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
