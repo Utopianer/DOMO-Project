@@ -1,1 +1,1 @@
-This is the Source Code for the DOMO-Project´s Homepage
+This is the Source Code for the DOMO-Projects Homepage
