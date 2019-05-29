@@ -1,67 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The DOMO Project</title>
-    <description>Building a decentralized Community. Domocoin is a cryptocurrency used as a ticket to join the social network of the future (Proof of Ownership)</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 May 2019 22:03:59 +0800</pubDate>
-    <lastBuildDate>Mon, 27 May 2019 22:03:59 +0800</lastBuildDate>
-    <generator>Jekyll v3.7.4</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>Finish DOMO Project. WOW!</title>
-        <description>&lt;p&gt;We always stick to the needs of our customers.&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/Utopianer/DomoCore&quot;&gt;DOMO Source&lt;/a&gt; to view our DOMO Coin Source Code. You can download Wallets in &lt;a href=&quot;https://github.com/Utopianer/DOMO-Project/releases&quot;&gt;Wallets&lt;/a&gt;. Most communications are &lt;a href=&quot;https://discord.gg/u2VEeD&quot;&gt;Discord&lt;/a&gt; and &lt;a href=&quot;https://t.me/DOMOproject&quot;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 05 May 2019 08:22:26 +0800</pubDate>
-        <link>http://localhost:4000/domo/update/2019/05/05/domo-finish-project/</link>
-        <guid isPermaLink="true">http://localhost:4000/domo/update/2019/05/05/domo-finish-project/</guid>
-        
-        
-        <category>domo</category>
-        
-        <category>update</category>
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Domo First Commit Successfully!</title>
-        <description>&lt;p&gt;DOMO coin official homepage is updated!&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/Utopianer/DomoCore&quot;&gt;DOMO Source&lt;/a&gt; to view our DOMO Coin Source Code. You can download Wallets in &lt;a href=&quot;https://github.com/Utopianer/DOMO-Project/releases&quot;&gt;Wallets&lt;/a&gt;. Most communications are &lt;a href=&quot;https://discord.gg/u2VEeD&quot;&gt;Discord&lt;/a&gt; and &lt;a href=&quot;https://t.me/DOMOproject&quot;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 25 Apr 2019 08:22:26 +0800</pubDate>
-        <link>http://localhost:4000/domo/update/2019/04/25/domo-first-commit/</link>
-        <guid isPermaLink="true">http://localhost:4000/domo/update/2019/04/25/domo-first-commit/</guid>
-        
-        
-        <category>domo</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to DOMO coin</title>
-        <description>&lt;p&gt;Notice first DOMO COIN released!&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/Utopianer/DomoCore&quot;&gt;DOMO Source&lt;/a&gt; to view our DOMO Coin Source Code. You can download Wallets in &lt;a href=&quot;https://github.com/Utopianer/DOMO-Project/releases&quot;&gt;Wallets&lt;/a&gt;. Most communications are &lt;a href=&quot;https://discord.gg/u2VEeD&quot;&gt;Discord&lt;/a&gt; and &lt;a href=&quot;https://t.me/DOMOproject&quot;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 01 Jul 2018 08:22:26 +0800</pubDate>
-        <link>http://localhost:4000/domo/release/2018/07/01/welcome-to-domo-coin/</link>
-        <guid isPermaLink="true">http://localhost:4000/domo/release/2018/07/01/welcome-to-domo-coin/</guid>
-        
-        
-        <category>domo</category>
-        
-        <category>release</category>
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
