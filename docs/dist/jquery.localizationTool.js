@@ -1,7 +1,11 @@
-/*! Localization Tool - v0.0.22 - 2017-09-06
-* http://darksmo.github.io/jquery-localization-tool/
-* Copyright (c) 2017; Licensed MIT */
+/**
+ * @fileOverview Contains the code for jQuery.localizationTool
+ *
+ * @author Savio Dimatteo <darksmo@gmail.com>
+ */
+
 (function($) {
+
     var _keyboardPressed = false;
 
     var methods = {
@@ -402,7 +406,7 @@
             };
 
             var $this = this,
-                stringsObj = $this.data('settings').strings;
+                stringsObj = jsonData;
 
             // regexp for attributes matching
             var attrRegexp = new RegExp('^[a-zA-Z-]+?::');
@@ -446,7 +450,8 @@
            var $this = this,
                refMapping = {},
                settings = $this.data('settings'),
-               stringsObj = settings.strings;
+               stringsObj = jsonData;
+
 
            // decompose the initial strings in various bits
            var decompositionObj = methods._decomposeStringsForReferenceMapping.call($this);
@@ -728,7 +733,7 @@
         '_translate': function (languageCode) {
             var $this = this,
                 settings = $this.data('settings'),
-                stringsObj = settings.strings,
+                stringsObj = jsonData,
                 refMappingObj = $this.data('refMappingObj');
 
             var cssDirection = 'ltr';
@@ -818,7 +823,7 @@
         'translateString' : function (textToTranslate, languageCode) {
             var $this = this;
             var settings = $this.data('settings');
-            var stringsObj = settings.strings;
+            var stringsObj = jsonData;
 
             if (!settings.languages.hasOwnProperty(languageCode)) {
                 $.error('The language code ' + languageCode + ' is not known');
@@ -1337,7 +1342,7 @@
 
                 // language codes common to all translations
                 var activeLanguageCodeArray = methods._findSubsetOfUsedLanguages.call(
-                    $this, settings.strings
+                    $this, jsonData
                 );
                 $this.data('activeLanguageCodeArray', activeLanguageCodeArray);
 
