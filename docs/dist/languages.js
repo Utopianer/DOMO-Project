@@ -11,7 +11,7 @@
                         'countryTranslated': 'Italia',
                         'languageTranslated': 'Italiano',
                         'flag' : {
-                            'url' : 'http://upload.wikimedia.org/wikipedia/commons/f/fb/Farm-Fresh_italy.png', /* url of flag image */
+                            'url' : 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Farm-Fresh_italy.png', /* url of flag image */
                             'class' : 'italian-flag' /* (optional) class to assign to the flag (e.g., for css styling) */
                         }
                     },
