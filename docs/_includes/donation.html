@@ -1,4 +1,21 @@
 <section id="donation">
+	<div class="container mt-5 pt-4" style="background:#7f7f7f; background:rgba(0,0,0,0.6);">
+			<div class="container-heading">
+				<h3 class="blue" style="line-height: 26px;">Community First</h3>
+			</div>
+			<div class="row margin-top-30">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<p class="orange text-center" style="font-weight: 900">By rewarding contributions in Domocoins, the Community becomes the main source for development tasks. Also, contributors get the chance to join the DOMO team and be hired for specific job listings.</p>
+				</div>
+			</div>
+			<div class="row margin-top-10">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<p class="orange text-center" style="font-weight: 900">Below you can find currently outstanding development tasks. In order to realize those features, workforce needs to be paid. Send us a donation or apply for the job to make the features reality!</p>
+				</div>
+			</div>
+	</div>
 	<div class="container">
 		<div class="donation-align col-md-12 col-sm-12 col-xs-12">
 		    <div class="col-md-4 col-sm-12 col-xs-12">
@@ -6,37 +23,128 @@
 		      		<h6 class="bucket-title blue text-center">Mobile Wallets</h6>
 		      		<h6 class="bucket-need blue">Amount<br>Needed</h6>
 		      		<h6 class="bucket-raise blue">Amount<br>Raised</h6>
-		      		<h4 class="bucket-money-t blue glow2">200$</h4>
-		      		<h4 class="bucket-money-b blue glow">200$</h4>
-		      		<img class="bucket-line-t" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
-		      		<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
-		      		<img src="{{ site.baseurl }}/image/bucket-1.png" alt="bucket">
-		      	</div>
-		    </div>
-		    <div class="col-md-4 col-sm-12 col-xs-12">
-		      	<div class="bucket">
-		      		<h6 class="bucket-title blue text-center">Blockchain<br>Governance</h6>
-		      		<h6 class="bucket-need blue">Amount<br>Needed</h6>
-		      		<h6 class="bucket-raise blue">Amount<br>Raised</h6>
-		      		<h4 class="bucket-money-t blue glow3">200$</h4>
-		      		<h4 class="bucket-money-b blue glow">200$</h4>
-		      		<img class="bucket-line-t" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
-		      		<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
-		      		<img src="{{ site.baseurl }}/image/bucket-2.png" alt="bucket">
-		      	</div>
-		    </div>
-		    <div class="col-md-4 col-sm-12 col-xs-12">
-		      	<div class="bucket">
-		      		<h6 class="bucket-title blue text-center">General<br>development<br>fund</h6>
-		      		<h6 class="bucket-need blue">Amount<br>Needed</h6>
-		      		<h6 class="bucket-raise blue">Amount<br>Raised</h6>
-		      		<h4 class="bucket-money-t blue glow4">200$</h4>
-		      		<h4 class="bucket-money-b blue glow">200$</h4>
+		      		<h4 class="bucket-money-t blue glow3">5000$</h4>
+		      		<h4 class="bucket-money-b blue glow">0$</h4>
 		      		<img class="bucket-line-t" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
 		      		<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
 		      		<img src="{{ site.baseurl }}/image/bucket-3.png" alt="bucket">
 		      	</div>
+						<div>
+						<form method="POST" action="https://btcpay.openchain.group/api/v1/invoices" target="_blank">
+
+    <input type="hidden" name="storeId" value="291NwhRvYtnjQ6bd7VqToxQiVuZCigFqdu9iFADg2Fwe" />
+    <div class="donate"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20000" step="1"  value="10" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: #ffffff; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
+    <input type="hidden" name="currency" value="USD" />
+    <input class="donateimg" type="image" src="https://btcpay.openchain.group/img/paybutton/pay.svg" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+</form>
+</div>
+		    </div>
+		    <div class="col-md-4 col-sm-12 col-xs-12">
+		      	<div class="bucket">
+		      		<h6 class="bucket-title blue text-center">Blockchain Governance</h6>
+		      		<h6 class="bucket-need blue">Amount<br>Needed</h6>
+		      		<h6 class="bucket-raise blue">Amount<br>Raised</h6>
+		      		<h4 class="bucket-money-t blue glow3">2000$</h4>
+		      		<h4 class="bucket-money-b blue glow">0$</h4>
+		      		<img class="bucket-line-t" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
+		      		<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
+		      		<img src="{{ site.baseurl }}/image/bucket-3.png" alt="bucket">
+		      	</div>
+						<div>
+						<form method="POST" action="https://btcpay.openchain.group/api/v1/invoices" target="_blank">
+
+    <input type="hidden" name="storeId" value="Snai4WRaTjSSzoufuwDyGFeZjfX4CBjCPEyXwYwAWW3" />
+    <div class="donate"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20000" step="1"  value="10" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: #ffffff; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
+    <input type="hidden" name="currency" value="USD" />
+    <input class="donateimg" type="image" src="https://btcpay.openchain.group/img/paybutton/pay.svg" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+</form>
+</div>
+		    </div>
+		    <div class="col-md-4 col-sm-12 col-xs-12">
+		      	<div class="bucket">
+		      		<h6 class="bucket-title blue text-center">Dual Blockchain</h6>
+		      		<h6 class="bucket-need blue">Amount<br>Needed</h6>
+		      		<h6 class="bucket-raise blue">Amount<br>Raised</h6>
+		      		<h4 class="bucket-money-t blue glow3">3000$</h4>
+		      		<h4 class="bucket-money-b blue glow">0$</h4>
+		      		<img class="bucket-line-t" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
+		      		<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
+		      		<img src="{{ site.baseurl }}/image/bucket-3.png" alt="bucket">
+		      	</div>
+						<div>
+						<form method="POST" action="https://btcpay.openchain.group/api/v1/invoices" target="_blank">
+
+    <input type="hidden" name="storeId" value="9YchiehCvp9nttMnQKKpk9yJNyouadt61wo38tnFeHA9" />
+    <div class="donate"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20000" step="1"  value="10" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: #ffffff; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
+    <input type="hidden" name="currency" value="USD" />
+    <input class="donateimg" type="image" src="https://btcpay.openchain.group/img/paybutton/pay.svg" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+</form>
+</div>
 		    </div>
 	    </div>
+			<div class="donation-align col-md-12 col-sm-12 col-xs-12">
+					<div class="col-md-4 col-sm-12 col-xs-12">
+							<div class="bucket">
+								<h6 class="bucket-title blue text-center">General Development</h6>
+								<h6 class="bucket-raise blue">Amount<br>Raised</h6>
+								<h4 class="bucket-money-b blue glow">0$</h4>
+								<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
+								<img src="{{ site.baseurl }}/image/bucket-3.png" alt="bucket">
+							</div>
+							<div>
+							<form method="POST" action="https://btcpay.openchain.group/api/v1/invoices" target="_blank">
+
+			<input type="hidden" name="storeId" value="2Y1mLmowH4DrVvwe4h1KUNXQXYRTwnQZ3XYxv3BDqrie" />
+			<div class="donate"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20000" step="1"  value="10" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: #ffffff; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
+			<input type="hidden" name="currency" value="USD" />
+			<input class="donateimg" type="image" src="https://btcpay.openchain.group/img/paybutton/pay.svg" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+	</form>
+	</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12">
+							<div class="bucket">
+								<h6 class="bucket-title blue text-center">Marketing</h6>
+								<h6 class="bucket-raise blue">Amount<br>Raised</h6>
+								<h4 class="bucket-money-b blue glow">0$</h4>
+								<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
+								<img src="{{ site.baseurl }}/image/bucket-3.png" alt="bucket">
+							</div>
+							<div>
+							<form method="POST" action="https://btcpay.openchain.group/api/v1/invoices" target="_blank">
+
+			<input type="hidden" name="storeId" value="H96mrNpEmZvL91z5fUAfZpyGmZ3Th5A3Fc8PC6JTcVao" />
+			<div class="donate"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20000" step="1"  value="10" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: #ffffff; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
+			<input type="hidden" name="currency" value="USD" />
+			<input class="donateimg" type="image" src="https://btcpay.openchain.group/img/paybutton/pay.svg" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+	</form>
+	</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12">
+							<div class="bucket">
+								<h6 class="bucket-title blue text-center">Buy us a coffee</h6>
+								<h6 class="bucket-raise blue">Amount<br>Raised</h6>
+								<h4 class="bucket-money-b blue glow">0$</h4>
+								<img class="bucket-line-b" src="{{ site.baseurl }}/image/line.png" alt="bucket line">
+								<img src="{{ site.baseurl }}/image/bucket-3.png" alt="bucket">
+							</div>
+							<div>
+							<form method="POST" action="https://btcpay.openchain.group/api/v1/invoices" target="_blank">
+
+			<input type="hidden" name="storeId" value="7gwSFdd1qpEx7sbyNE9mQSL2XtBVmUrx26t8HiFVnn1C" />
+			<div class="donate"><div><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('-' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) - 1;">-</button><input type="text" id="btcpay-input-price" name="price"  min="1" max="20000" step="1"  value="1" style="border: none; background-image: none; background-color: transparent; -webkit-box-shadow: none ; -moz-box-shadow: none ; -webkit-appearance: none ; width: 3em; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff;" oninput="event.preventDefault();isNaN(event.target.value) || event.target.value <= 0 ? document.querySelector('#btcpay-input-price').value = 10 : event.target.value"  /><button style="cursor:pointer; font-size:25px; line-height: 25px; background: rgba(0,0,0,.1); height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto;" onclick="event.preventDefault(); var price = parseInt(document.querySelector('#btcpay-input-price').value); if ('+' == '-' && (price - 1) < 1) { return; } document.querySelector('#btcpay-input-price').value = parseInt(document.querySelector('#btcpay-input-price').value) + 1;">+</button></div><select  onmouseover="this.style.border='solid #ccc 1px'; this.style.padding='0px'"  onmouseout="this.style.border='0'; this.style.padding='1px'" onchange="document.querySelector('input[type = hidden][name = currency]').value = event.target.value" style="border: 0; display: block; padding: 1px; margin: auto auto 5px auto; font-size: 11px; background: #ffffff; cursor: pointer;"><option value="USD">USD</option><option value="GBP">GBP</option><option value="EUR">EUR</option><option value="BTC">BTC</option></select></div>
+			<input type="hidden" name="currency" value="USD" />
+			<input class="donateimg" type="image" src="https://btcpay.openchain.group/img/paybutton/pay.svg" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+	</form>
+	</div>
+					</div>
+				</div>
+	 </div>
+	 <div class="container mt-5 pt-4" style="background:#7f7f7f; background:rgba(0,0,0,0.6);">
+			 <div class="row margin-top-30">
+				 <div class="col-2"></div>
+				 <div class="col-8">
+					 <p class="orange text-center" style="font-weight: 900">Please make sure to contact us, so we can discuss the purpose of your donation in detail!</p>
+				 </div>
+			 </div>
 	 </div>
 </section>
