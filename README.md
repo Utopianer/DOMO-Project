@@ -1,13 +1,5 @@
 # The DOMO-Project
-This is the official Home of the DOMO Project!
-This Repository is only for storage of the Homepage and Wiki in the /Docs folder and old Blockchains from DOMO for historical purposes.
 
-For the actual SourceCode of Domocoin please visit: https://github.com/Utopianer/DomoCore
+This Repository is only for storage of the old Homepage in the /Docs folder and old Blockchains from DOMO for historical purposes.
 
-You can still download the Wallets in the Releases Section: https://github.com/Utopianer/DOMO-Project/releases
-
-For more Informations please ask Domo or visit the official DOMO Homepage: https://domoproject.me
-
-Most communications are happening via Discord: https://discord.gg/u2VEeD
-
-and also on Telegram: https://t.me/DOMOproject
+For more Informations please ask Domo or visit the official DOMO Homepage: https://domo.network
